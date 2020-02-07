@@ -3,8 +3,6 @@ box-sizing: border-box;
 }
 
 body {
-width: 100vh;
-height: 100vh;
 background-image:linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
 }
 
@@ -21,8 +19,37 @@ h1 {
     text-align: right ;
     margin: 20px;
     font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1em;
     font-size: 2em;
     padding: 20px 30px ;
-
+    
+}
+.text {
+    color: black;
+    font-weight: 700;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1em;
+    text-shadow: 5px 5px 20px white;
+}
+.box {
+    width: 400px;
+    height: 100px;
+    background-color: #302b63;
+    background-position: center;
+    margin: 0 40px 0 55px ;
+    box-shadow: 2px 2px 100px white;
+    border-radius: 50%;
+}
+.footer {
+    color:black solid;
+    font-weight: 800;
+    text-align: left;
+    position: fixed;
+    padding-left: 15px;
+    bottom: 0;
+    font-family: 'Kreon', serif;
+    font-size: 1.5em;
+    text-shadow: 5px 5px 20px white;
+ 
 }
